@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 280px;
+            padding: 15px;
+            background: linear-gradient(135deg, #1a1a2a, #2d1a2a);
+            color: #fff;
+            font-family: 'Courier New', monospace;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+            padding: 12px;
+            background: linear-gradient(90deg, #ff00ff, #00ffff);
+            border-radius: 10px;
+            color: #000;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            margin: 6px 0;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .play-btn {
+            background: linear-gradient(45deg, #00ff00, #009900);
+            color: #000;
+        }
+        .mods-btn {
+            background: linear-gradient(45deg, #ff00ff, #cc00cc);
+            color: #000;
+        }
+        .fullscreen-btn {
+            background: linear-gradient(45deg, #00ffff, #00cccc);
+            color: #000;
+        }
+        .info {
+            font-size: 10px;
+            text-align: center;
+            margin-top: 12px;
+            color: #ccc;
+            border-top: 1px solid #333;
+            padding-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">S.H.A.D.O.W</div>
+    
+    <button class="play-btn" id="playGame">OPEN RETRO BOWL</button>
+    <button class="mods-btn" id="openMods">DIRECT SITE + MODS</button>
+    <button class="fullscreen-btn" id="fullscreen">FULLSCREEN</button>
+    
+    <div class="info">
+        v2.0 | S.H.A.D.O.W System<br>
+        Mods auto-inject on Retro Bowl sites
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
